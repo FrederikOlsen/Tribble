@@ -1,3 +1,4 @@
+<!-- upload_image.php -->
 <?php
 require '../Pages/signup.php';
 

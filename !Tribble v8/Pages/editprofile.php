@@ -1,3 +1,4 @@
+<!-- editprofile.php -->
 <?php
 session_start();
 include("../storage.php");
@@ -40,6 +41,7 @@ for ($i = 0; $i < $credentials["user_password_lenght"]; $i++) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edit profile</title>
     <link rel="stylesheet" href="../Styles/main.css">
+    <script src="https://kit.fontawesome.com/29c8abed28.js" crossorigin="anonymous"></script>
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>

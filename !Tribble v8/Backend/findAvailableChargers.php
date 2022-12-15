@@ -1,5 +1,5 @@
+<!-- findAvailableChargers.php -->
 <?php
-
 /* Checks current availability for all chargers on a location */
 function findAvailableNow($locationID)
 {

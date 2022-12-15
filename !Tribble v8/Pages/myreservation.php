@@ -1,3 +1,4 @@
+<!-- myreservation.php -->
 <?php
 session_start();
 include("../storage.php");
@@ -122,7 +123,7 @@ for ($i = 0; $i < count($reservation); $i++) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile</title>
+    <title>My reservations</title>
     <link rel="stylesheet" href="../Styles/main.css">
     <link rel="stylesheet" href="../Styles/PopUp.css">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>

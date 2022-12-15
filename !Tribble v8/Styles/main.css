@@ -64,14 +64,14 @@ input[type="submit"] {
   box-sizing: border-box;
   background-color: white;
   text-decoration: none;
-  color: black;
+  color: #00a651;
   font-family: "Poppins";
 }
 
 .ButtonSignup {
   background-color: #00a651 !important;
   color: white;
-  border-radius: 20px !important;
+  border-radius: 4px !important;
 }
 
 .OverText {
@@ -256,7 +256,7 @@ a.button {
     left: 0;
     transition: left 400ms ease-in-out;
   }
-  
+
   .navbar-nav {
     margin-top: 26px;
     display: block !important;
@@ -264,22 +264,22 @@ a.button {
 }
 
 @media (min-width: 768px) {
- .cross {
-  display: none;
- }
+  .cross {
+    display: none;
+  }
 
- .menu {
-  display: none;
- }
+  .menu {
+    display: none;
+  }
 
- .col-md-8 {
-  width: 80% !important;
-  margin: auto !important;
-}
+  .col-md-8 {
+    width: 80% !important;
+    margin: auto !important;
+  }
 
-.menuh1 {
-  border-top: 1px solid #d6ffcc;
-}
+  .menuh1 {
+    border-top: 1px solid #d6ffcc;
+  }
 }
 .navbar {
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
@@ -489,7 +489,6 @@ p.Name {
   padding: 8px;
 }
 
-
 /* CSS EDIT PROFILE PAGE */
 
 .profile-box-edit .button,
@@ -557,16 +556,14 @@ div.fullname {
   font-family: "Poppins";
 }
 
-
 /* CARD EDIT PROFILE PAGE */
-
 
 .container {
   padding: 15px;
   margin-top: 80px;
 }
 .clearfloat {
-  content: '';
+  content: "";
   display: block;
   clear: both;
 }
@@ -597,10 +594,9 @@ div.fullname {
   max-width: 70px;
   padding-top: 15px;
   transition: all 0.5s ease-in-out;
-  vertical-align:middle;
-  text-align:center;
+  vertical-align: middle;
+  text-align: center;
   padding-bottom: 20px;
-
 }
 .cards li .details {
   float: left;
@@ -617,7 +613,6 @@ div.fullname {
   margin-bottom: 6px;
   text-decoration: none;
   font-size: 12px;
-  
 }
 
 .cards li .details a {
@@ -625,19 +620,15 @@ div.fullname {
   transition: color 0.5s ease-in-out;
 }
 
-
-
 .cards li .details .png {
   width: 10%;
   color: #00a651;
   padding: 5px;
-  
 }
 
 .cards li .details .card-title {
-font-size: 20px;
-font-weight: 600;
-
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .cards li .details .btn {
@@ -657,37 +648,32 @@ font-weight: 600;
   font-family: "Poppins";
 }
 
-
 /* POP UP PAGE */
 
-
 .container-popup {
-  width: 100%; 
-  height: 100vh; 
+  width: 100%;
+  height: 100vh;
   background: #cfcfcf;
   display: flex;
   align-items: center;
   justify-content: center;
-
-
 }
 
 .btn {
-padding: 10px 60px;
-background:  #fff;
-border: 0; 
-outline: none; 
-cursor: pointer;
-font-size: 22px;
-font-weight: 500;
-border-radius: 30px;
+  padding: 10px 60px;
+  background: #fff;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: 500;
+  border-radius: 30px;
 }
 
 .popup-header {
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
 .popup-body {
@@ -699,58 +685,54 @@ border-radius: 30px;
 }
 
 body.active-popup {
-overflow: hidden;
-
+  overflow: hidden;
 }
 
 body.active-popup main {
-filter:blur(5px);
-background: rgba(0,0,0,0.5);
-transition: filter 0ms ease-in-out 0ms;
+  filter: blur(5px);
+  background: rgba(0, 0, 0, 0.5);
+  transition: filter 0ms ease-in-out 0ms;
 }
 
 body.active-popup .popup {
-  top:50%;
+  top: 50%;
   opacity: 1;
   margin-top: 0px;
   transition: filter 0ms ease-in-out 0ms;
-
 }
 
 body.active-popup .popup {
-  top:50%;
+  top: 50%;
   opacity: 1;
   margin-top: 0px;
-  transition: top 0ms ease-in-out 0ms, 
-  opacity 300ms ease-in-out, 
-  margin-top 300ms ease-in-out;
-  
+  transition: top 0ms ease-in-out 0ms, opacity 300ms ease-in-out,
+    margin-top 300ms ease-in-out;
 }
 
 .main {
   transition: filter 0ms ease-in-out 300ms;
 }
 
-
 .popup {
-width: 400px;
-background: white;
-border-radius: 6px;
-position: fixed;
-top: 50%;  /* 50% to see Popup -150% to hide the Popup */
-left: 50%; 
-transform: translate(-50%, -50%);
-text-align: center;
-padding: 0 30px 30px;
-color: #333;
-border: 1px solid rgba(0, 0, 0, 0.2);
-border-radius: 25px;
-box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-max-width: 80%;
-width: 500px;
-z-index:10;
-margin-top: -25px;
-transition: top 0ms ease-in-out, opacity 300ms ease-in-out, margin-top 300ms ease-in-out;
+  width: 400px;
+  background: white;
+  border-radius: 6px;
+  position: fixed;
+  top: 50%; /* 50% to see Popup -150% to hide the Popup */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 0 30px 30px;
+  color: #333;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  max-width: 80%;
+  width: 500px;
+  z-index: 10;
+  margin-top: -25px;
+  transition: top 0ms ease-in-out, opacity 300ms ease-in-out,
+    margin-top 300ms ease-in-out;
 }
 
 .popup .close-button {
@@ -765,17 +747,13 @@ transition: top 0ms ease-in-out, opacity 300ms ease-in-out, margin-top 300ms eas
   outline: none;
   border-radius: 50%;
   cursor: pointer;
-
 }
 
-
-
-.popup h2{
+.popup h2 {
   font-size: 38px;
   font-weight: 900 !important;
   margin: 30px 0px 10px;
 }
-
 
 .popup button {
   width: 50%;
@@ -795,7 +773,6 @@ transition: top 0ms ease-in-out, opacity 300ms ease-in-out, margin-top 300ms eas
 }
 
 .title-popup {
-
   font-size: 28px;
   font-weight: 800;
   font-family: "Poppins";
@@ -804,24 +781,22 @@ transition: top 0ms ease-in-out, opacity 300ms ease-in-out, margin-top 300ms eas
   padding-top: 10px;
 }
 
-
 .body-popup .png {
-  
   padding: 8px 4px 6px 7px;
   max-width: 40px;
   height: 40px;
   margin: 0px 7px 0px 0px;
 }
 
-.popup h2{
+.popup h2 {
   font-size: 12px;
   font-weight: 500;
   font-weight: 500;
-  margin:3px 0px 3px;
+  margin: 3px 0px 3px;
   font-family: "Poppins";
 }
 
-.body-popup{
+.body-popup {
   float: left;
   text-align: left;
   display: flex;
@@ -831,9 +806,9 @@ transition: top 0ms ease-in-out, opacity 300ms ease-in-out, margin-top 300ms eas
   min-width: 250px;
   font-family: "Poppins";
   padding-left: 20px;
-} 
+}
 
- .body-popup span  {
+.body-popup span {
   display: block;
   padding: 0 5px 0 0px;
   margin-bottom: 6px;
@@ -846,12 +821,11 @@ transition: top 0ms ease-in-out, opacity 300ms ease-in-out, margin-top 300ms eas
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-
 }
 
-.time span{
-padding: 0px;
-margin: 0px;
+.time span {
+  padding: 0px;
+  margin: 0px;
 }
 
 .time span h2 {
@@ -867,11 +841,9 @@ margin: 0px;
 .carousel-item .container {
   padding: 15px;
   margin-top: 0;
-}'
+}
 
 /* Error PAGE */
-
-
 
 .page_404 {
   padding: 40px 0;
@@ -885,7 +857,7 @@ margin: 0px;
 
 .four_zero_four_bg {
   background-image: url(https://giphy.com/gifs/gengar-jijidraws-jiji-knight-UHAYP0FxJOmFBuOiC2);
-  
+
   height: 400px;
   background-position: center;
 }
@@ -917,10 +889,6 @@ margin: 0px;
   margin-top: -50px;
 }
 
-
-
-
-
 /* Booking Page  */
 
 .booking-box {
@@ -934,7 +902,6 @@ margin: 0px;
   margin: 15px;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
   border-radius: 20px;
-
 }
 
 .booking-box .close-button {
@@ -949,7 +916,6 @@ margin: 0px;
   outline: none;
   border-radius: 50%;
   cursor: pointer;
-
 }
 
 .booking-box h2 {
@@ -959,9 +925,7 @@ margin: 0px;
   font-size: 27px;
 }
 
-
-
-.bookingtext1{
+.bookingtext1 {
   color: black;
   font-weight: bold;
   font-family: "Poppins";
@@ -970,7 +934,7 @@ margin: 0px;
   margin: 0px;
 }
 
-.bookingtext2{
+.bookingtext2 {
   color: grey;
   font-weight: bold;
   font-family: "Poppins";
@@ -983,15 +947,11 @@ margin: 0px;
   text-align: left;
 }
 
-
-
 .time-booking {
-display: flex;
-flex-direction: row;
-justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
-
-
 
 .addressbox {
   display: flex;
@@ -1000,16 +960,14 @@ justify-content: space-between;
   justify-content: space-between;
   padding-bottom: 30px;
   padding-top: 15px;
-
 }
 
 .item1 {
-  color: #BFBFBF;
+  color: #bfbfbf;
   font-weight: bold;
   margin: 0px;
   font-size: 14px;
   text-align: left;
- 
 }
 
 .item2 {
@@ -1018,25 +976,21 @@ justify-content: space-between;
   margin: 0px;
   font-size: 20px;
   text-align: left;
- 
 }
 
-
 .item3 {
-  color: #BFBFBF;
+  color: #bfbfbf;
   margin: 0px;
   font-size: 14px;
   text-align: left;
- 
 }
 
 .item4 {
-  color: #BFBFBF;
+  color: #bfbfbf;
   margin: 0px;
   font-size: 14px;
   text-align: left;
   font-weight: 500;
- 
 }
 
 .item5 {
@@ -1045,10 +999,7 @@ justify-content: space-between;
   font-weight: bold;
   font-size: 12px;
   text-align: left;
- 
- 
 }
-
 
 .booking-box button {
   width: 80%;
@@ -1074,43 +1025,53 @@ justify-content: space-between;
   border-radius: 20px;
 }
 
-
 /* Boarding Page  */
 
-
-.boarding-img{
-	border-radius: 30px;
-	cursor: pointer;
-	overflow: hidden;
-
-
+.boarding-img {
+  border-radius: 30px;
+  cursor: pointer;
+  overflow: hidden;
 }
 
-.boarding{
-width: 70%;
-margin: 100px 0px 60px 0px;
-border-radius: 30%;
+.boarding {
+  width: 70%;
+  margin: 100px 0px 60px 0px;
+  border-radius: 30%;
 }
 
-
-.boarding-img:nth-of-type(1):hover{
-	animation: ShrinkThenGrow .5s forwards;
+.boarding-img:nth-of-type(1):hover {
+  animation: ShrinkThenGrow 0.5s forwards;
 }
 
-
-@keyframes ShrinkThenGrow{
-	0%{
-		transform: scale(1);
-	}25%{
-		transform: scale(.9);
-	}100%{
-		transform: scale(1.25);
-	}
+@keyframes ShrinkThenGrow {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1.25);
+  }
 }
 
-.ButtonStart{
-  background-color: #0BA14B;
+.ButtonStart {
+  background-color: #0ba14b !important;
   color: white;
   margin-bottom: 20px;
   border-radius: 20px;
+}
+
+.popup-header img {
+  border-radius: 10px;
+  height: 100px;
+  width: 200px;
+}
+
+.body-popup {
+  padding-bottom: 12px;
+}
+
+.body-pop .cancelbutton {
+  margin-top: 10px !important;
 }

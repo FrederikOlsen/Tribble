@@ -1,3 +1,4 @@
+<!-- login.php -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -18,7 +19,7 @@
   </div>
 
   <form class="MiddleBoard" action="../Backend/login.php?action=login" method="post">
-    <input type="text" name="user_email" placeholder="Email" required><br>
+    <input type="text" name="user_email" placeholder="Email" required>
     <input type="password" name="user_password" placeholder="Password" id="password" required><br>
     <input class="ButtonSignup" type="submit" value="LOGIN">
     <a href="../Pages/signup.php" class="ButtonLogin"> SIGN UP</a>
